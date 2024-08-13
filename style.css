@@ -11,7 +11,7 @@ body,html{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/assets/graham-holtshausen-63JKK67yGUE-unsplash.jpg);
+    background-image: url(./assets/graham-holtshausen-63JKK67yGUE-unsplash.jpg);
     background-size: cover;
     background-position: center;
 }
