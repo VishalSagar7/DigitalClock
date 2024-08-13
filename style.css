@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/graham-holtshausen-63JKK67yGUE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.clockdiv{
+    height: 200px;
+    width: 450px;
+    padding-inline: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+.clockdiv h2{
+    text-align: center;
+}
+.clockdiv2{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.clockdiv2 .child-divs{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(190, 93, 93);
+    border-radius: 5px;
+}
+.child-divs h1{
+    font-size: 60px;
+}
+.child-divs h2{
+    background-color: brown;
+    width: 100%;
+}
+#am-pm{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
